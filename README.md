@@ -1,6 +1,6 @@
 # 🦠 Conway's Game of Life - Live Wallpaper
 
-[ 🇬🇧 English ](#-english) | [ 🇪🇸 Español ](#-español) | [ ᴄᴀ Català ](#-català)
+[ 🇬🇧 English ](#-english) | [ 🇪🇸 Español ](#-español) | [ ᴄᴀ Català ](#català)
 
 ---
 
@@ -52,7 +52,7 @@ El proyecto está dividido en dos capas conectadas mediante JNI (Java Native Int
 
 ---
 
-## ᴄᴀ Català
+## Català
 
 Un fons de pantalla animat hiper-optimitzat per a Android, construït amb una arquitectura híbrida de C++ i Kotlin.
 
