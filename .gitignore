@@ -1,0 +1,30 @@
+# Local environment files
+/local.properties
+/.idea/
+*.iml
+
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Compilation from Android and Gradle
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+.gradle
+.gradle/
+
+# Native compilation files (C++ / CMake)
+.cxx/
+*.so
+*.o
+*.obj

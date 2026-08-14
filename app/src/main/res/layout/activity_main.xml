@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="32dp"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Get back to preview"
+        android:src="@drawable/baseline_arrow_back_24" />
+
+    <!-- Grid size -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid size:"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spinnerSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/grid_sizes" /> <!-- It links automatically with arrays.xml -->
+
+    <!-- Color palette -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color palette:"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spinnerPalette"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/color_palettes" />
+
+    <!-- Initial pattern -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Initial automata:"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spinnerPattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:entries="@array/initial_patterns" />
+
+    <!-- Save button -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+
+    <!-- Back  button. If it's needed can be switched with the image button-->
+    <!--<Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver a la vista previa"
+        android:layout_marginTop="16dp" />-->
+
+</LinearLayout>

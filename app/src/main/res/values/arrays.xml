@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Grid size options -->
+    <string-array name="grid_sizes">
+        <item>Size 1 (Large cells)</item>
+        <item>Size 2 (Medium cells)</item>
+        <item>Size 3 (Small cells)</item>
+        <item>Size 4 (Very small cells)</item>
+    </string-array>
+
+    <!-- Color palettes -->
+    <string-array name="color_palettes">
+        <item>Neon Green on Black</item>
+        <item>Purple on Light</item>
+        <item>Cyan on Navy</item>
+        <item>Coral on Charcoal</item>
+        <item>Gold on Ivory</item>
+        <item>Mint on Forest Green</item>
+        <item>Vivid Green on Dark Lilac</item>
+        <item>Yellow on Teal</item>
+        <item>Blaugrana</item>
+    </string-array>
+
+    <!-- Initial patterns -->
+    <string-array name="initial_patterns">
+        <item>Glider</item>
+        <item>Kok galaxy</item>
+        <item>Pentadecathlon</item>
+        <item>Lightweight Spaceship (LWSS)</item>
+        <item>Acorn</item>
+        <item>Random</item>
+        <item>2x2 Square (Static)</item>
+    </string-array>
+
+    <string name="save">Save settings</string>
+
+</resources>

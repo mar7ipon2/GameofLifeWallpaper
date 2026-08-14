@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Opciones de tamaño de celda -->
+    <string-array name="grid_sizes">
+        <item>Medida 1 (Celdas grandes)</item>
+        <item>Medida 2 (Celdas medianas)</item>
+        <item>Medida 3 (Celdas pequeñas)</item>
+        <item>Medida 4 (Celdas muy pequeñas)</item>
+    </string-array>
+
+    <!-- Opciones de paletas de colores -->
+    <string-array name="color_palettes">
+        <item>Verde Neón sobre fondo negro</item>
+        <item>Púrpura sobre fondo claro</item>
+        <item>Cian sobre azul marino</item>
+        <item>Coral sobre carbón</item>
+        <item>Dorado sobre marfil</item>
+        <item>Menta sobre verde bosque</item>
+        <item>Verde vivo sobre lila oscuro</item>
+        <item>Amarillo sobre verde azulado</item>
+        <item>Azulgrana</item>
+    </string-array>
+
+    <!-- Opciones de patrones iniciales -->
+    <string-array name="initial_patterns">
+        <item>Glider</item>
+        <item>Galaxia de Kok</item>
+        <item>Pentadecathlon</item>
+        <item>Lightweight Spaceship (LWSS)</item>
+        <item>Acorn (Bellota)</item>
+        <item>Aleatorio</item>
+        <item>Cuadrado 2x2 (Estático)</item>
+    </string-array>
+
+    <string name="save">Guardar configuración</string>
+
+</resources>
