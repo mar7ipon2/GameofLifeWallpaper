@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Opciones de tamaño de celda -->
-    <string name="grid_size">Tamaño de la cuadrícula</string>
+    <string name="grid_size">Tamaño de la cuadrícula:</string>
     <string-array name="grid_sizes">
         <item>Medida 1 (Celdas grandes)</item>
         <item>Medida 2 (Celdas medianas)</item>
@@ -10,7 +10,7 @@
     </string-array>
 
     <!-- Opciones de paletas de colores -->
-    <string name="color_palette">Paleta de colores</string>
+    <string name="color_palette">Paleta de colores:</string>
     <string-array name="color_palettes">
         <item>Verde Neón sobre fondo negro</item>
         <item>Púrpura sobre fondo claro</item>
@@ -24,7 +24,7 @@
     </string-array>
 
     <!-- Opciones de patrones iniciales -->
-    <string name="initial_automata">Autómata inicial</string>
+    <string name="initial_automata">Autómata inicial:</string>
     <string-array name="initial_patterns">
         <item>Glider</item>
         <item>Galaxia de Kok</item>
