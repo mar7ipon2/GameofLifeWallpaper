@@ -24,7 +24,7 @@
     </string-array>
 
     <!-- Opcions de patrons inicials -->
-    <string name="initial_automata">Autòmata inicial</string>
+    <string name="initial_automata">Autòmat inicial</string>
     <string-array name="initial_patterns">
         <item>Glider</item>
         <item>Kok galaxy</item>
