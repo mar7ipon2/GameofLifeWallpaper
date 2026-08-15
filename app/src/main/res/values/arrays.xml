@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Grid size options -->
+    <string name="grid_size">Grid size</string>
     <string-array name="grid_sizes">
         <item>Size 1 (Large cells)</item>
         <item>Size 2 (Medium cells)</item>
@@ -9,6 +10,7 @@
     </string-array>
 
     <!-- Color palettes -->
+    <string name="color_palette">Palette color</string>
     <string-array name="color_palettes">
         <item>Neon Green on Black</item>
         <item>Purple on Light</item>
@@ -22,6 +24,7 @@
     </string-array>
 
     <!-- Initial patterns -->
+    <string name="initial_automata">Initial automaton</string>
     <string-array name="initial_patterns">
         <item>Glider</item>
         <item>Kok galaxy</item>

@@ -12,14 +12,14 @@
         android:layout_height="48dp"
         android:layout_marginBottom="24dp"
         android:background="?attr/selectableItemBackgroundBorderless"
-        android:contentDescription="Get back to preview"
+        android:contentDescription="Back to preview"
         android:src="@drawable/baseline_arrow_back_24" />
 
     <!-- Grid size -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Grid size:"
+        android:text="@string/grid_size"
         android:textStyle="bold" />
     <Spinner
         android:id="@+id/spinnerSize"
@@ -32,7 +32,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Color palette:"
+        android:text="@string/color_palette"
         android:textStyle="bold" />
     <Spinner
         android:id="@+id/spinnerPalette"
@@ -45,7 +45,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Initial automata:"
+        android:text="@string/initial_automata"
         android:textStyle="bold" />
     <Spinner
         android:id="@+id/spinnerPattern"

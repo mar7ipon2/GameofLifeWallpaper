@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Opcions de mida de cel·la -->
+    <string name="grid_size">Mesura de la graella</string>
     <string-array name="grid_sizes">
         <item>Mesura 1 (Cel·les grans)</item>
         <item>Mesura 2 (Cel·les mitjanes)</item>
@@ -9,6 +10,7 @@
     </string-array>
 
     <!-- Opcions de paletes de colors -->
+    <string name="color_palette">Paleta de colors</string>
     <string-array name="color_palettes">
         <item>Verd Neó sobre fons negre</item>
         <item>Púrpura sobre fons clar</item>
@@ -22,6 +24,7 @@
     </string-array>
 
     <!-- Opcions de patrons inicials -->
+    <string name="initial_automata">Autòmata inicial</string>
     <string-array name="initial_patterns">
         <item>Glider</item>
         <item>Kok galaxy</item>
